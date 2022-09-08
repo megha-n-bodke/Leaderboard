@@ -1,15 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leaderboard App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Hello Microverse</h1>
+    <div>
+        <div class="container">
+            <h1 class="pt-5 font-weight-bold">Leaderboard</h1>
+            <div class="row gx-5">
+                <div class="col-6 d-flex flex-column">
+                    <div class="d-flex pt-5">
+                        <h3 class="me-4">Recent Scores</h3>
+                        <button class="btn btn-outline-secondary">Refresh</button>
+                    </div>
+                    <div class="row pt-4">
+                        <table class="table table-striped border border-dark">
+                            <tbody>
+                                <tr>
+                                    <td>Name:100</td>
+                                </tr>
+                                <tr>
+                                    <td>Name:20</td>
+                                </tr>
+                                <tr>
+                                    <td>Name:50</td>
+                                </tr>
+                                <tr>
+                                    <td>Name:78</td>
+                                </tr>
+                                <tr>
+                                    <td>Name:125</td>
+                                </tr>
+                                <tr>
+                                    <td>Name:72</td>
+                                </tr>
+                                <tr>
+                                    <td>Name:56</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <div class="col-6 d-flex flex-column pt-5">
+                    <h2>Add Your Score</h2>
+                    <input type="text" class="mt-4 w-50" placeholder="Your Name">
+                    <input type="text" class="mt-4 w-50" placeholder="Your Score">
+                    <button class="w-25 mt-4">Submit</button>
+                </div>
+            </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+                crossorigin="anonymous"></script>
+
 </body>
 
 </html>
