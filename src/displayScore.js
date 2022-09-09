@@ -1,10 +1,10 @@
-import { baseUrl, scoreBoard } from "./getElements.js";
+import { baseUrl, scoreBoard } from './getElements.js';
 
 const display = async () => {
   try {
     const response = await fetch(baseUrl);
     const { result } = await response.json();
-    let row = "";
+    let row = '';
     result.map((player) => {
       const { user, score } = player;
       row += `
