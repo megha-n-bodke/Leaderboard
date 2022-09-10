@@ -20,6 +20,18 @@
 
 To get a local copy up and running follow these simple example steps.
 
+## Clone Git Repository
+
+-Reach to following Github URL: -https://github.com/megha-n-bodke/Leaderboard/.
+
+-Click on “Code” menu with green background and copy the URL.
+
+-In Visual Studio Code “Terminal” change the current working directory to the location where you want the cloned directory.
+
+-Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+
+-syntax: $ git clone {repository URL}
+
 ## Install Dependencies(with following Command)
 
 - npm install --save -dev
