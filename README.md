@@ -1,8 +1,6 @@
 # Leaderboard
 A website that displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
-> Leaderboard provides scores about players scores and their names.
-
 ## Built With
 
 - Major languages
